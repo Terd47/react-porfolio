@@ -23,6 +23,7 @@ const Skills = () => {
                                        <li>JavaScript</li>
                                        <li>HandleBars</li>
                                        <li>ReactJs</li>
+                                       <li>Progressive Web Application (PWA)</li>
                                    </ul>
                                    <h5>UI/UX Design</h5>
                                    <ul className="list">
@@ -78,10 +79,8 @@ const Skills = () => {
                                         <li>Passportjs</li>
                                         <li>Json Web Tokens</li>
                                         <li>Bcrypt</li>
-                                   </ul>
-                                   <h5>Version Control</h5>
-                                   <ul className="list">
-                                        <li>Git & GitHub</li>
+                                        <li>WebPack</li>
+                                        <li>MERN Stack</li>
                                    </ul>
                                </div>
                            </div>
