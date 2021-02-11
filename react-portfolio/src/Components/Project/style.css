@@ -1,0 +1,23 @@
+.click{
+    margin: 10px;
+}
+.projects{
+    background-color: #979dac;
+}
+.section-head{
+    font-family: roboto;
+}
+.accordion-item{
+    font-family: roboto;
+    font-size: 25px;
+}
+.prod-title{
+    background-color: #979dac;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: content-box;
+    border-style:outset;
+    margin: 10px;
+    font-size:25px;
+}

@@ -1,0 +1,36 @@
+.pic{
+    width: 250px;
+    margin-left:30px;
+    border-radius: 24px;
+    margin: 28px;
+}
+.image{
+    margin: 30px;
+}
+.greet{
+    margin: 10px;
+    padding: 10px;
+}
+.about{
+    background-color:  #1c2237;
+    color: aliceblue;
+
+}
+
+@media screen and (max-width: 820px) {
+    .pic{
+        width: 250px;
+        margin-left:30px;
+        border-radius: 25px;
+        margin: 28px;
+        visibility: hidden;
+    }
+    .greet{
+        margin: 0px;
+        padding:0px;
+    }
+    .lead{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+}

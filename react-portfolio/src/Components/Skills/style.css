@@ -1,0 +1,36 @@
+.card{
+    height: 25.7em;
+    padding-top: 10px;
+    margin-top:10px;
+    border-radius: 20px;
+    padding-top: 0px;
+}
+.card-title{
+    font-family: roboto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.list{
+    margin-top:0px;
+    padding-top: 0px;
+}
+.list-head{
+    margin-top:0px;
+    padding-top: 0px;
+}
+.role-check{
+    text-align: center;
+    font-family: roboto;
+}
+.skills{
+    background-color: #e0e1dd;
+}
+.card-body{
+    background-color: #e0e1dd;
+}
+.card-type{
+    text-align: center;
+    background-color: #e0e1dd ;
+    margin-top: 0px;
+    padding-top: 0px;
+}
