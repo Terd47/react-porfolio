@@ -63,7 +63,7 @@ const Skills = () => {
                        <div className="col">
                        <div className="card">
                                <div className="card-type">
-                               <h3 className="card-title"> Familiar Frameworks</h3>
+                               <h3 className="card-title"> Familiar Frameworks/ Tools</h3>
                                </div>
                                <div className="card-body">
                                    <h5></h5>
