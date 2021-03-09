@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from '../Button';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import './style.css';
 import { MdPolymer } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -41,15 +40,15 @@ function Navbar() {
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'} style={{display: 'flex', listStyle: "none", justifyContent: 'space-around'}}>
               <li className='nav-item'>
-                <Link to='/portfolio' className='nav-links' onClick={closeMenu}>
+                <Link activeClass="active" to='projects' spy={true} smooth={true} className='nav-links' onClick={closeMenu}>
                   Projects
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/skills'
+                 spy={true} smooth={true} to='skills'
                   className='nav-links'
                   onClick={closeMenu}
                 >
@@ -58,7 +57,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/contact'
+                  spy={true} smooth={true} to='contact'
                   className='nav-links'
                   onClick={closeMenu}
                 >
@@ -67,7 +66,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/about'
+                  spy={true} smooth={true} to='about'
                   className='nav-links'
                   onClick={closeMenu}
                 >

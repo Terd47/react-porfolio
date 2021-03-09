@@ -5,7 +5,7 @@ import Doh from '../../images/Doh1.jpg';
 const About = () => {
 
     return(
-        <div className=" conatiner-fluid about">
+        <div className=" conatiner-fluid about" id="about" >
             <div className="row cover">
                 <div className="col-2">
                     <div className="image">
